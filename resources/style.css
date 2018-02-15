@@ -1,0 +1,41 @@
+body {
+  /* Photo by Kace Rodriguez on Unsplash */
+  background-image: url("images/kace-rodriguez-85845.jpg");
+  background-size: 100%;
+}
+.container {
+  background: rgba(207,207,207,0.5);
+  /* opacity: 0.5; */
+  text-align: center;
+  border-radius: 1rem;
+  margin: 4rem auto 0 auto;
+  padding:2rem 0;
+  width:80%;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .5rem;
+  margin: 0.5rem auto;
+  width: 16rem;
+  height: 4rem;
+  background-color: #DDD;
+  text-decoration: none;
+  color: black;
+}
+
+.linkBtn:hover {
+  background-color: #FFF;
+}
+
+.listTitle {
+  margin: 2rem 0;
+}
