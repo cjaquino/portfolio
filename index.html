@@ -5,29 +5,61 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="resources/reset.css">
     <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <!-- <script type="text/javascript" src="resources/script.js"></script> -->
   </head>
   <body>
     <nav class="navbar">
-
+      <!-- <p><span id="title">Carl  Jerritt  Aquino</span><span id="subtitle">&lt;Applications Engineer and Front-End Developer&gt;<span></p> -->
+      <p><span id="title">Carl  Jerritt  Aquino</span></p>
+      <div class="links">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carl-jerritt-aquino"><i class="fab fa-linkedin fa-3x" style="color:#BCBCBC"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/cjaquino"><i class="fab fa-github fa-3x" style="color:#BCBCBC"></i></a>
+      </div>
     </nav>
     <div class="container">
-      <h1 id="title">Portfolio</h1>
-      <p>but really it's just a place to view all the pages I create. I'll create an actual portfolio site eventually</p>
 
-      <h2 id="gwgTitle" class="listTitle">Grow with Google</h2>
+
+      <p id="description"><em>Attempting to master the ways of the web. I'm currently enrolled in the Front-End Nanodegree program by Udacity under the Grow with Google Scholarship program. Below are some of the projects I've worked on</em></p>
+      <hr>
+
+      <div class="feature">
+        <a target="_blank" rel="noopener noreferrer" href="https://cjaquino.github.io/fend-memory-game/"><img src="resources/images/memory-game.PNG" alt="image of cards laid in a 4 by four fashion"></a>
+        <div class="text">
+          <a target="_blank" rel="noopener noreferrer" href="https://cjaquino.github.io/fend-memory-game/">
+            <h2>Matching Game</h2>
+            <p>Match the tiles until you uncover them all!</p>
+          </a>
+        </div>
+      </div>
+
+      <hr>
+
       <ul class="list">
-        <li><a class="linkBtn" href="https://cjaquino.github.io/mockuparticle/">Mockup Article</a></li>
-        <li><a class="linkBtn" href="https://cjaquino.github.io/animaltradingcard/">Animal Trading Card</a></li>
-        <li><a class="linkBtn" href="https://cjaquino.github.io/pixelart/">Pixel Art</a></li>
+        <li>
+          <a class="card" href="https://cjaquino.github.io/mockuparticle/">
+            <h3>Pixel Art</p>
+            <img src="resources/images/pixelart.PNG" alt="">
+          </a>
+        </li>
+        <li>
+          <a class="card" href="https://cjaquino.github.io/FCCwikiviewer/">
+            <h3>Random Wiki</p>
+            <img src="resources/images/wikiviewer.PNG" alt="">
+          </a>
+        </li>
+        <li>
+          <a class="card" href="https://cjaquino.github.io/excursion/">
+            <h3>Landing Page</p>
+            <img src="resources/images/excursion.PNG" alt="">
+          </a>
+        </li>
       </ul>
 
-      <h2 id="ccTitle" class="listTitle">CodeCademy</h2>
-      <ul class:"list">
-        <li><a class="linkBtn" href="#">Project 1</a></li>
-        <li><a class="linkBtn" href="#">Project 2</a></li>
-        <li><a class="linkBtn" href="#">Project 3</a></li>
-      </ul>
+
     </div>
+
+    <script src="resources/scripts.js"></script>
   </body>
 </html>
